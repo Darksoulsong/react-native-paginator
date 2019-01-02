@@ -1,0 +1,47 @@
+{
+  "name": "react-native-paginator",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "Thyago Weber",
+    "email": "thyago.weber@gmail.com"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-paginator"
+  ],
+  "scripts": {
+    "prettier": "prettier — single-quote — trailing-comma all — write \"src/**/*.js\"",
+    "linter": "eslint src --fix"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-react-native": "^5",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-module-resolver": "^0.8.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.3.0",
+    "eslint-plugin-react-redux": "^2.3.0",
+    "flow-bin": "^0.82.0"    
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=6"
+  }
+}
