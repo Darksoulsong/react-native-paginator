@@ -5,11 +5,19 @@ import getItemsFn from './getItems';
 import isOddFn from './isOdd';
 import updateButtonStylesFn from './updateButtonStyles';
 
-export const {
-  getButtonStyles: getButtonStylesFn,
-  getConditions: getConditionsFn,
-  getDisplayItems: getDisplayItemsFn,
-  getItems: getItemsFn,
-  isOdd: isOddFn,
-  updateButtonStyles: updateButtonStylesFn,
+const getButtonStyles = getButtonStylesFn;
+const getConditions = getConditionsFn;
+const getDisplayItems = getDisplayItemsFn;
+const getItems = getItemsFn;
+const isOdd = isOddFn;
+const updateButtonStyles = updateButtonStylesFn;
+
+export {
+  getButtonStyles,
+  getConditions,
+  getDisplayItems,
+  getItems,
+  isOdd,
+  updateButtonStyles,
 };
+

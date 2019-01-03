@@ -5,7 +5,7 @@
 /**
  * Receives an existing style and returns
  */
-export function updateButtonStyles(
+export default function updateButtonStyles(
   previousStyle: Style,
   disabledStyle: Style,
   buttonIsDisabled = false,

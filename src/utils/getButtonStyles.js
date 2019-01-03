@@ -5,7 +5,7 @@
 /**
  * Merges the default styles with the user supplied ones
  */
-export function getButtonStyles(
+export default function getButtonStyles(
   previousStepIsOutOfRange: boolean,
   nextStepIsOutOfRange: boolean,
   defaultStyles: Style,

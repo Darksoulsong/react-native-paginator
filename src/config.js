@@ -1,3 +1,7 @@
+/**
+ * @flow
+ */
+
 import { StyleSheet } from 'react-native';
 
 const buttonMain = {
@@ -59,4 +63,4 @@ export const buttonDisabled = {
   lineHeight: 12,
 };
 
-export const onChange = () => void;
+export const onChange = () => {};
