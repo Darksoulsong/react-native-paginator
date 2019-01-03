@@ -2,7 +2,8 @@
 
 A simple React Native paginator
 
-## Installation:
+## Installation
+Install it running `npm i react-native-paginator` on a terminal.
 
 ## Usage
 Import it to your project:
@@ -10,7 +11,7 @@ Import it to your project:
 `import Paginator from 'react-native-paginator';`
 
 ```
-<Paginator  
+<Paginator
   totalItems={itemCount}
   onChange={newPage => fetchMoreItemsFn(newPage))}
   activePage="1"
