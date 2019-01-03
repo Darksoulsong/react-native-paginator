@@ -21,6 +21,7 @@ export const totalItems = 0;
 export const activePage = 1;
 export const itemsPerPage = 10;
 export const pageRangeDisplayed = 3;
+export const disabled = false;
 
 export const buttonStyles = {
   ...buttonMain,
@@ -58,6 +59,4 @@ export const buttonDisabled = {
   lineHeight: 12,
 };
 
-export const disabled = false;
-
-export const onChange = () => {};
+export const onChange = () => void;

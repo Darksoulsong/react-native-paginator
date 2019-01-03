@@ -1,6 +1,6 @@
 {
   "name": "react-native-paginator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "license": "MIT",
   "author": {
@@ -15,8 +15,8 @@
     "prettier": "prettier — single-quote — trailing-comma all — write \"src/**/*.js\"",
     "linter": "eslint src --fix"
   },
-  "dependencies": {
-    "prop-types": "^15.6.2",
+  "main": "src/index.js",
+  "peerDependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0"
   },
@@ -38,7 +38,7 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-react-native": "^3.3.0",
     "eslint-plugin-react-redux": "^2.3.0",
-    "flow-bin": "^0.82.0"    
+    "flow-bin": "^0.82.0"
   },
   "engines": {
     "node": ">=8.0.0",
