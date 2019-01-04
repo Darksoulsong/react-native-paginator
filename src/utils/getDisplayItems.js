@@ -2,6 +2,8 @@
  * @flow
  */
 
+import isOdd from './isOdd';
+
 /**
  * Returns the visible paginator buttons
  */

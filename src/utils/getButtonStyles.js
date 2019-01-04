@@ -2,6 +2,12 @@
  * @flow
  */
 
+import updateButtonStyles from './updateButtonStyles';
+
+type Style = {
+  [x: string]: string
+}
+
 /**
  * Merges the default styles with the user supplied ones
  */

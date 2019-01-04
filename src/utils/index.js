@@ -20,4 +20,3 @@ export {
   isOdd,
   updateButtonStyles,
 };
-

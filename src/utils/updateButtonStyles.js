@@ -2,6 +2,10 @@
  * @flow
  */
 
+type Style = {
+  [x: string]: string
+}
+
 /**
  * Receives an existing style and returns
  */
